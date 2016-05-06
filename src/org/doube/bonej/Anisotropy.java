@@ -369,6 +369,7 @@ public class Anisotropy implements PlugIn, DialogListener {
 			coordinates[i] = coordList.get(i);
 
 		return coordinates;
+		coordinates.printToIJLog("MIL coordinates");
 	}
 
 	/**
